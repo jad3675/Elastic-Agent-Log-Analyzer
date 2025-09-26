@@ -22,7 +22,7 @@ A comprehensive GUI application for analyzing and comparing Elastic Agent logs a
 - **Search Functionality**: Full-text search across log messages and metadata
 - **File-based Filtering**: View logs from specific files only
 
-### 🔗 Cross-Server Correlation
+###  Cross-Server Correlation
 - **Timeline Correlation**: Find events occurring simultaneously across servers
 - **Message Similarity**: Identify similar error patterns between servers
 - **Component Comparison**: Compare component activity across the fleet
@@ -52,8 +52,6 @@ The application uses only Python standard library modules:
 - `statistics` - Statistical calculations
 - `difflib` - Text similarity comparison
 - `threading` - Background file loading
-
-```
 
 ## Usage
 
@@ -149,6 +147,7 @@ The application expects Elastic Agent logs in JSON format, with each line contai
 
 ### Timezone Settings
 Available in each server tab's filter panel. Converts UTC timestamps to local time for display.
+
 
 
 ---
